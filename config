@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/venkatthirupathi/15may.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "origin2"]
+	url = https://github.com/venkatthirupathi/may18.git
+	fetch = +refs/heads/*:refs/remotes/origin2/*
+[https]
+	proxy = https://172.16.20.200:3128
+[http]
+	proxy = http://172.16.20.200:3128
